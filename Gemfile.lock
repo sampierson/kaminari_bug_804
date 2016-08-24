@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/amatsuda/kaminari.git
+  revision: be3a2c9a2182fae145e7ff88223feb4d55ed539d
+  specs:
+    kaminari (1.0.0.alpha)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+
+GIT
+  remote: git://github.com/haml/haml.git
+  revision: 106030c3fbe66090fedb547ad1d9c7f27374278e
+  specs:
+    haml (5.0.0.beta.2)
+      tilt
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -157,8 +172,10 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  haml!
   jbuilder (~> 2.5)
   jquery-rails
+  kaminari!
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
