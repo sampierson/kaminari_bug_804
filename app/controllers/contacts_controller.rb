@@ -7,6 +7,10 @@ class ContactsController < ApplicationController
     @contacts = Contact.page(params[:page]).per(10)
   end
 
+  def haml_index
+    index
+  end
+
   # GET /contacts/1
   # GET /contacts/1.json
   def show
